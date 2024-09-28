@@ -4,33 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% if page %}
-      {% if page.title %}
-        <title>Michael Clerk | {{ page.title}}</title>
-        <meta property="og:title" content="{{ page.title }}">
-        <meta name="twitter:title" content="{{ page.title }}">
-      {% elif config.title %}
-        <title>{{ config.title }}</title>
-        <meta property="og:title" content="{{ config.title }}">
-        <meta name="twitter:title" content="{{ config.title }}">
-      {% endif %}
-      {% if page.description %}
-        <meta name="description" content="{{ page.description }}" />
-        <meta property="og:description" content="{{ page.description }}" />
-        <meta name="twitter:description" content="{{ page.description }}" />
-      {% elif config.description %}
-        <meta name="description" content="{{ config.description }}" />
-        <meta property="og:description" content="{{ config.description }}" />
-        <meta name="twitter:description" content="{{ config.description }}" />
-      {% endif %}
-    {% elif config.description %}
-      <title>{{ config.title }}</title>
-      <meta property="og:title" content="{{ config.title }}">
-      <meta name="twitter:title" content="{{ config.title }}">
-      <meta name="description" content="{{ config.description }}" />
-      <meta property="og:description" content="{{ config.description }}" />
-      <meta name="twitter:description" content="{{ config.description }}" />
-    {% endif %}
+    
+      <title>Michael Clerk | Blog</title>
+      <meta property="og:title" content="Michael Clerk | Blog">
+      <meta name="twitter:title" content="Michael Clerk | Blog">
+      <meta name="description" content="My Personal Blog." />
+      <meta property="og:description" content="My Personal Blog." />
+      <meta name="twitter:description" content="My Personal Blog." />
+    
     
     <meta property="og:site_name" content="Michael Clerk | Blog">
     <meta name="twitter:site" content="@_mclerk">
@@ -38,8 +19,8 @@
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     
-    {% block extra_head %}
-    {% endblock extra_head %}
+    
+    
   </head>
   <body>
     <div class="page-container">
@@ -58,8 +39,21 @@
         </div>
       </header>
         <div class="main-content">
-          {% block content %}
-          {% endblock content %}
+          
+<h1 class="title">
+  List of blog posts
+</h1>
+<h4 class="title">Follow: <a href="https://mclerk.net/atom.xml">Atom</a>, <a href="https://mclerk.net/rss.xml">RSS</a></h4>
+<nav>
+  <ul>
+    <!-- If you are using pagination, section.pages will be empty.
+         You need to use the paginator object -->  
+    
+    <li><a href="https://mclerk.net/blog/1/">#1: My first post</a></li>
+    
+  </ul>
+</nav>
+
         </div>
       <footer>
         <div class="footer-content">
@@ -80,8 +74,8 @@
           <p><a style="margin-right: 30px;" target="_blank" rel="noopener noreferrer" href="https://mclerk.net/atom.xml">Atom</a><a target="_blank" rel="noopener noreferrer"href="https://mclerk.net/rss.xml">RSS</a></p>
           <h4>Proud West Indian &#x1F1EF;&#x1F1F2;  🇹🇹</h4>
           <h4>God is my Don &#x1F64F; الله أكبر</h4>
-          {% block extra_footer %}
-          {% endblock extra_footer %}
+          
+          
         </div>
       </footer>
     </div>

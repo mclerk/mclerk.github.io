@@ -5,11 +5,13 @@
   {{ section.title }}
 </h1>
 <h4 class="title">Follow: <a href="https://mclerk.net/atom.xml">Atom</a>, <a href="https://mclerk.net/rss.xml">RSS</a></h4>
-<ul>
-  <!-- If you are using pagination, section.pages will be empty.
-       You need to use the paginator object -->  
-  {% for page in section.pages %}
-  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
-  {% endfor %}
-</ul>
+<nav>
+  <ul>
+    <!-- If you are using pagination, section.pages will be empty.
+         You need to use the paginator object -->  
+    {% for page in section.pages %}
+    <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
 {% endblock content %}

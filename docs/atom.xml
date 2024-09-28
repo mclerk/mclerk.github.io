@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Michael Clerk | Blog</title>
+    <subtitle>My Personal Blog.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://mclerk.net/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://mclerk.net"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-09-25T00:00:00+00:00</updated>
+    <id>https://mclerk.net/atom.xml</id>
+    <entry xml:lang="en">
+        <title>#1: My first post</title>
+        <published>2024-09-25T00:00:00+00:00</published>
+        <updated>2024-09-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Michael Clerk
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mclerk.net/blog/1/"/>
+        <id>https://mclerk.net/blog/1/</id>
+        
+        <content type="html" xml:base="https://mclerk.net/blog/1/">&lt;p&gt;I finally have my personal site setup. Thanks to github pages. &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mclerk&#x2F;mclerk.github.io&quot;&gt;Repo&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This is my first blog post. I plan to post every other week, I have &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;mclerk.net&#x2F;atom.xml&quot;&gt;Atom&lt;&#x2F;a&gt; &amp;amp; &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;mclerk.net&#x2F;rss.xml&quot;&gt;RSS&lt;&#x2F;a&gt; feeds setup.&lt;&#x2F;p&gt;
+&lt;p&gt;I also have got all my socials setup. Follow for more updates:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;mclerk.bsky.social&quot;&gt;Bluesky&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;linkedin.com&#x2F;in&#x2F;mclerk&quot;&gt;Linkedin&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;x.com&#x2F;_mclerk&quot;&gt;X(Twitter)&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Peace &amp;amp; Love,&lt;br &#x2F;&gt;
+Michael&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

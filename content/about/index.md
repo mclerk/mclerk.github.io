@@ -1,9 +1,10 @@
 +++
 title = "About Me"
 template = "about.html"
+description = "About me: At Work, Outside of Work and Tech Specs"
 +++
 
-Jamaican Born, moved to Trinidad and Tobago in 2001. Relocated to United States in 2019, and now going back to Jamaica in 2025 to focus on new international ventures.
+Jamaican Born, moved to Trinidad and Tobago in 2001. Relocated to United States in 2019, and now going back to Jamaica in 2025 to focus on new international ventures in FinTech and Open Source Software.
 
 ## At Work
 

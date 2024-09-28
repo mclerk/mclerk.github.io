@@ -4,33 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% if page %}
-      {% if page.title %}
-        <title>Michael Clerk | {{ page.title}}</title>
-        <meta property="og:title" content="{{ page.title }}">
-        <meta name="twitter:title" content="{{ page.title }}">
-      {% elif config.title %}
-        <title>{{ config.title }}</title>
-        <meta property="og:title" content="{{ config.title }}">
-        <meta name="twitter:title" content="{{ config.title }}">
-      {% endif %}
-      {% if page.description %}
-        <meta name="description" content="{{ page.description }}" />
-        <meta property="og:description" content="{{ page.description }}" />
-        <meta name="twitter:description" content="{{ page.description }}" />
-      {% elif config.description %}
-        <meta name="description" content="{{ config.description }}" />
-        <meta property="og:description" content="{{ config.description }}" />
-        <meta name="twitter:description" content="{{ config.description }}" />
-      {% endif %}
-    {% elif config.description %}
-      <title>{{ config.title }}</title>
-      <meta property="og:title" content="{{ config.title }}">
-      <meta name="twitter:title" content="{{ config.title }}">
-      <meta name="description" content="{{ config.description }}" />
-      <meta property="og:description" content="{{ config.description }}" />
-      <meta name="twitter:description" content="{{ config.description }}" />
-    {% endif %}
+    
+      
+        <title>Michael Clerk | #1: My first post</title>
+        <meta property="og:title" content="#1: My first post">
+        <meta name="twitter:title" content="#1: My first post">
+      
+      
+        <meta name="description" content="My First Blog, Highlighting my social media accounts and Atom &amp; RSS feeds for the blog." />
+        <meta property="og:description" content="My First Blog, Highlighting my social media accounts and Atom &amp; RSS feeds for the blog." />
+        <meta name="twitter:description" content="My First Blog, Highlighting my social media accounts and Atom &amp; RSS feeds for the blog." />
+      
+    
     
     <meta property="og:site_name" content="Michael Clerk | Blog">
     <meta name="twitter:site" content="@_mclerk">
@@ -38,8 +23,8 @@
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     
-    {% block extra_head %}
-    {% endblock extra_head %}
+    
+    
   </head>
   <body>
     <div class="page-container">
@@ -58,8 +43,23 @@
         </div>
       </header>
         <div class="main-content">
-          {% block content %}
-          {% endblock content %}
+          
+<h1 class="title">
+  #1: My first post
+</h1>
+<p class="subtitle"><strong>2024-09-25</strong></p>
+<p>I finally have my personal site setup. Thanks to github pages. <a rel="noopener" target="_blank" href="https://github.com/mclerk/mclerk.github.io">Repo</a></p>
+<p>This is my first blog post. I plan to post every other week, I have <a rel="noopener" target="_blank" href="https://mclerk.net/atom.xml">Atom</a> &amp; <a rel="noopener" target="_blank" href="https://mclerk.net/rss.xml">RSS</a> feeds setup.</p>
+<p>I also have got all my socials setup. Follow for more updates:</p>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://mclerk.bsky.social">Bluesky</a></li>
+<li><a rel="noopener" target="_blank" href="https://linkedin.com/in/mclerk">Linkedin</a></li>
+<li><a rel="noopener" target="_blank" href="https://x.com/_mclerk">X(Twitter)</a></li>
+</ul>
+<p>Peace &amp; Love,<br />
+Michael</p>
+
+
         </div>
       <footer>
         <div class="footer-content">
@@ -80,8 +80,8 @@
           <p><a style="margin-right: 30px;" target="_blank" rel="noopener noreferrer" href="https://mclerk.net/atom.xml">Atom</a><a target="_blank" rel="noopener noreferrer"href="https://mclerk.net/rss.xml">RSS</a></p>
           <h4>Proud West Indian &#x1F1EF;&#x1F1F2;  🇹🇹</h4>
           <h4>God is my Don &#x1F64F; الله أكبر</h4>
-          {% block extra_footer %}
-          {% endblock extra_footer %}
+          
+          
         </div>
       </footer>
     </div>

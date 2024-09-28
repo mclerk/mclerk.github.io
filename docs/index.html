@@ -4,33 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% if page %}
-      {% if page.title %}
-        <title>Michael Clerk | {{ page.title}}</title>
-        <meta property="og:title" content="{{ page.title }}">
-        <meta name="twitter:title" content="{{ page.title }}">
-      {% elif config.title %}
-        <title>{{ config.title }}</title>
-        <meta property="og:title" content="{{ config.title }}">
-        <meta name="twitter:title" content="{{ config.title }}">
-      {% endif %}
-      {% if page.description %}
-        <meta name="description" content="{{ page.description }}" />
-        <meta property="og:description" content="{{ page.description }}" />
-        <meta name="twitter:description" content="{{ page.description }}" />
-      {% elif config.description %}
-        <meta name="description" content="{{ config.description }}" />
-        <meta property="og:description" content="{{ config.description }}" />
-        <meta name="twitter:description" content="{{ config.description }}" />
-      {% endif %}
-    {% elif config.description %}
-      <title>{{ config.title }}</title>
-      <meta property="og:title" content="{{ config.title }}">
-      <meta name="twitter:title" content="{{ config.title }}">
-      <meta name="description" content="{{ config.description }}" />
-      <meta property="og:description" content="{{ config.description }}" />
-      <meta name="twitter:description" content="{{ config.description }}" />
-    {% endif %}
+    
+      <title>Michael Clerk | Blog</title>
+      <meta property="og:title" content="Michael Clerk | Blog">
+      <meta name="twitter:title" content="Michael Clerk | Blog">
+      <meta name="description" content="My Personal Blog." />
+      <meta property="og:description" content="My Personal Blog." />
+      <meta name="twitter:description" content="My Personal Blog." />
+    
     
     <meta property="og:site_name" content="Michael Clerk | Blog">
     <meta name="twitter:site" content="@_mclerk">
@@ -38,8 +19,8 @@
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     
-    {% block extra_head %}
-    {% endblock extra_head %}
+    
+    
   </head>
   <body>
     <div class="page-container">
@@ -58,8 +39,42 @@
         </div>
       </header>
         <div class="main-content">
-          {% block content %}
-          {% endblock content %}
+          
+<h2 class="title">Socials</h4>
+<div class="home-logos">
+  <table>
+      <tr>
+          <td><a target="_blank" rel="noopener noreferrer" href="https://codeberg.org/mclerk"><img class="icon" src="assets/codeberg-logo_icon_blue.svg" alt="Codeberg"/><span>mclerk</span></a></td>
+      </tr>
+      <tr>
+          <td><a target="_blank" rel="noopener noreferrer" href="https://github.com/mclerk"><img class="icon" src="assets/github-mark.svg" alt="GitHub"/><span>mclerk</span></a></td>
+      </tr>
+      <tr>
+          <td><a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/mclerk"><img class="icon" src="assets/gitlab-logo.svg" alt="GitLab"/><span>mclerk</span></a></td>
+      </tr>
+      <tr>
+          <td><a target="_blank" rel="noopener noreferrer" href="https://mclerk.bsky.social" rel="me"><img class="icon" src="assets/bluesky-logo.svg" alt="Bluesky"/><span>@mclerk.bsky.social</span></a></td>
+      </tr>
+      <tr>
+          <td><a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/mclerk"><img class="icon" src="assets/in-logo.png" alt="LinkedIn"/><span>in/mclerk</span></a></td>
+      </tr>
+      <tr>
+          <td><a target="_blank" rel="noopener noreferrer" href="https://x.com/@_mclerk" rel="me"><img class="icon" src="assets/x-logo-black.png" alt="X"/><span>@_mclerk</span></a></td>
+      </tr>
+  </table>
+</div>
+<h2 class="title">Identity Verification (OpenPGP)</h4>
+<div class="home-logos">
+<table>
+  <tr>
+    <td><a target="_blank" rel="noopener noreferrer" href="https://keyoxide.org/32316a0a3f1e037d25b0e397a76e8f27d379fb2b"><img class="icon" src="assets/keyoxide-color.svg"/><span>32316a0a3f1e037d25b0e397a76e8f27d379fb2b</span></a></td>
+  </tr>
+  <tr>
+    <td><a target="_blank" rel="noopener noreferrer" href="https://keys.openpgp.org/pks/lookup?op=get&options=mr&search=0x32316a0a3f1e037d25b0e397a76e8f27d379fb2b"><img class="icon" src="assets/key.png"/>Download from Key Server (keys.openpgp.org)</a></td>
+  </tr>
+</table>
+</div>
+
         </div>
       <footer>
         <div class="footer-content">
@@ -80,8 +95,8 @@
           <p><a style="margin-right: 30px;" target="_blank" rel="noopener noreferrer" href="https://mclerk.net/atom.xml">Atom</a><a target="_blank" rel="noopener noreferrer"href="https://mclerk.net/rss.xml">RSS</a></p>
           <h4>Proud West Indian &#x1F1EF;&#x1F1F2;  🇹🇹</h4>
           <h4>God is my Don &#x1F64F; الله أكبر</h4>
-          {% block extra_footer %}
-          {% endblock extra_footer %}
+          
+          
         </div>
       </footer>
     </div>

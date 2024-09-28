@@ -4,33 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% if page %}
-      {% if page.title %}
-        <title>Michael Clerk | {{ page.title}}</title>
-        <meta property="og:title" content="{{ page.title }}">
-        <meta name="twitter:title" content="{{ page.title }}">
-      {% elif config.title %}
-        <title>{{ config.title }}</title>
-        <meta property="og:title" content="{{ config.title }}">
-        <meta name="twitter:title" content="{{ config.title }}">
-      {% endif %}
-      {% if page.description %}
-        <meta name="description" content="{{ page.description }}" />
-        <meta property="og:description" content="{{ page.description }}" />
-        <meta name="twitter:description" content="{{ page.description }}" />
-      {% elif config.description %}
-        <meta name="description" content="{{ config.description }}" />
-        <meta property="og:description" content="{{ config.description }}" />
-        <meta name="twitter:description" content="{{ config.description }}" />
-      {% endif %}
-    {% elif config.description %}
-      <title>{{ config.title }}</title>
-      <meta property="og:title" content="{{ config.title }}">
-      <meta name="twitter:title" content="{{ config.title }}">
-      <meta name="description" content="{{ config.description }}" />
-      <meta property="og:description" content="{{ config.description }}" />
-      <meta name="twitter:description" content="{{ config.description }}" />
-    {% endif %}
+    
+      
+        <title>Michael Clerk | About Me</title>
+        <meta property="og:title" content="About Me">
+        <meta name="twitter:title" content="About Me">
+      
+      
+        <meta name="description" content="About me: At Work, Outside of Work and Tech Specs" />
+        <meta property="og:description" content="About me: At Work, Outside of Work and Tech Specs" />
+        <meta name="twitter:description" content="About me: At Work, Outside of Work and Tech Specs" />
+      
+    
     
     <meta property="og:site_name" content="Michael Clerk | Blog">
     <meta name="twitter:site" content="@_mclerk">
@@ -38,8 +23,8 @@
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     
-    {% block extra_head %}
-    {% endblock extra_head %}
+    
+    
   </head>
   <body>
     <div class="page-container">
@@ -58,8 +43,63 @@
         </div>
       </header>
         <div class="main-content">
-          {% block content %}
-          {% endblock content %}
+          
+<h1 class="title">
+    About Me
+</h1>
+<p>Jamaican Born, moved to Trinidad and Tobago in 2001. Relocated to United States in 2019, and now going back to Jamaica in 2025 to focus on new international ventures in FinTech and Open Source Software.</p>
+<h2 id="at-work">At Work</h2>
+<p>An entrepreneur who excels at identifying problems and developing practical solutions, using background
+knowledge and experience in computer science, finance, management and mechanics. Excellent project
+management acumen with a logical approach to work. Results-driven and hardworking with the skill and
+resilience to achieve daily operational goals.</p>
+<h3 id="experience">Experience</h3>
+<h4 id="rahtid-investment-management-usa">Rahtid Investment Management | USA</h4>
+<p>A Private Holding company with investments in: Lawn Care, Waste Management, Vending, Last Mile Delivery &amp; Merchandising Services.</p>
+<ul>
+<li>Co-Owner and Administrative &amp; Technical Manager (ATM) | Mar 2019 - Present
+<ul>
+<li>Co-Founder and 50% Shareholder.</li>
+</ul>
+</li>
+</ul>
+<h4 id="tyche-enterprises-limited-trinidad-and-tobago">Tyche Enterprises Limited | Trinidad and Tobago</h4>
+<p>A regional distribution company, representing market leading consumer brands.</p>
+<ul>
+<li>Executive Assistant | Jun 2014 - May 2017</li>
+<li>Technical Assistant | Jun 2012 - May 2014</li>
+</ul>
+<h2 id="outside-of-work">Outside of work</h2>
+<ol>
+<li>
+<p>Horses:
+An avid follower of thoroughbred bloodstock, racing &amp; aftercare.
+Hope to have farm one day somewhere in East Asia or Down Under.</p>
+</li>
+<li>
+<p>Motorsport:
+Raced Offshore Powerboats from 2008-2012;
+Raced Rotax Max Karts from 2013-2017.
+Serious Formula 1, &amp; Nascar Fan.</p>
+</li>
+<li>
+<p>Music: Instrument &amp; Equipment enthusiast. Bass Guitar novice. Played the Steel Drum in Trinidad for many years.</p>
+</li>
+</ol>
+<h2 id="tech-specs">Tech Specs</h2>
+<ul>
+<li>Daily Driver: <a rel="noopener" target="_blank" href="https://fedoraproject.org/atomic-desktops/silverblue/">Fedora Silverblue</a> (since version 33)</li>
+<li>Primary Language: Rust
+<ul>
+<li>Secondary: Go</li>
+<li>Also interested in: C, JS/TS, Python</li>
+</ul>
+</li>
+<li>IDE: VSCode</li>
+<li>Terminal Editor: <a rel="noopener" target="_blank" href="https://helix-editor.com/">Helix</a></li>
+</ul>
+
+
         </div>
       <footer>
         <div class="footer-content">
@@ -80,8 +120,8 @@
           <p><a style="margin-right: 30px;" target="_blank" rel="noopener noreferrer" href="https://mclerk.net/atom.xml">Atom</a><a target="_blank" rel="noopener noreferrer"href="https://mclerk.net/rss.xml">RSS</a></p>
           <h4>Proud West Indian &#x1F1EF;&#x1F1F2;  🇹🇹</h4>
           <h4>God is my Don &#x1F64F; الله أكبر</h4>
-          {% block extra_footer %}
-          {% endblock extra_footer %}
+          
+          
         </div>
       </footer>
     </div>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Michael Clerk | Blog</title>
+      <link>https://mclerk.net</link>
+      <description>My Personal Blog.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://mclerk.net/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Wed, 25 Sep 2024 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>#1: My first post</title>
+          <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+          <author>Michael Clerk</author>
+          <link>https://mclerk.net/blog/1/</link>
+          <guid>https://mclerk.net/blog/1/</guid>
+          <description xml:base="https://mclerk.net/blog/1/">&lt;p&gt;I finally have my personal site setup. Thanks to github pages. &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mclerk&#x2F;mclerk.github.io&quot;&gt;Repo&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This is my first blog post. I plan to post every other week, I have &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;mclerk.net&#x2F;atom.xml&quot;&gt;Atom&lt;&#x2F;a&gt; &amp;amp; &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;mclerk.net&#x2F;rss.xml&quot;&gt;RSS&lt;&#x2F;a&gt; feeds setup.&lt;&#x2F;p&gt;
+&lt;p&gt;I also have got all my socials setup. Follow for more updates:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;mclerk.bsky.social&quot;&gt;Bluesky&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;linkedin.com&#x2F;in&#x2F;mclerk&quot;&gt;Linkedin&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;x.com&#x2F;_mclerk&quot;&gt;X(Twitter)&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Peace &amp;amp; Love,&lt;br &#x2F;&gt;
+Michael&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
