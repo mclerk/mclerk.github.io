@@ -6,7 +6,7 @@ hero:
   name: "Michael Clerk"
   tagline: Jamaican Entrepreneur doing business globally
   image:
-    src: /mclerk.svg
+    src: /mclerk-base.png
     alt: Profile Icon
   actions:
     - theme: brand

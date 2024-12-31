@@ -39,24 +39,22 @@ Serious Formula 1, & Nascar Fan.
 
 ```json
 {
-    "tech": {
-        "os": "My Custom Fedora Image",
-        "primaryLanguage": "Rust",
-        "secondaryLanguage": "Go",
-        "otherLanguages": [
-            "C",
-            "JS/TS",
-            "Python"
-        ],
-        "ide": [
-            "VSCode",
-            "Zed"
-        ],
-        "terminal": [
-            "Ghostty",
-            "Ptyxis"
-        ],
-        "terminalEditor": "Helix"
-    },
+    "os": "My Custom Fedora Image",
+    "primaryLanguage": "Rust",
+    "secondaryLanguage": "Go",
+    "otherLanguages": [
+        "C",
+        "JS/TS",
+        "Python"
+    ],
+    "ide": [
+        "VSCode",
+        "Zed"
+    ],
+    "terminal": [
+        "Ghostty",
+        "Ptyxis"
+    ],
+    "terminalEditor": "Helix"
 }
 ```

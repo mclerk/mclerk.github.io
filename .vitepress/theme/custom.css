@@ -142,13 +142,6 @@
     font-style: italic;
 }
 
-@font-face {
-    font-family: "Amiri Quran";
-    src: url("fonts/AmiriQuran-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
 :root {
     --vp-font-family-base: "JetBrains Mono", monospace;
     --vp-font-family-mono: "JetBrains Mono", monospace;
