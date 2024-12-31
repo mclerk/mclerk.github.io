@@ -1,0 +1,243 @@
+@font-face {
+    font-family: "JetBrains Mono";
+    src:
+        url("fonts/JetBrainsMono-Regular.woff2") format("woff2"),
+        url("fonts/JetBrainsMono-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src:
+        url("fonts/JetBrainsMono-Bold.woff2") format("woff2"),
+        url("fonts/JetBrainsMono-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src:
+        url("fonts/JetBrainsMono-Italic.woff2") format("woff2"),
+        url("fonts/JetBrainsMono-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src:
+        url("fonts/JetBrainsMono-BoldItalic.woff2") format("woff2"),
+        url("fonts/JetBrainsMono-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src:
+        url("fonts/JetBrainsMono-ExtraBold.woff2") format("woff2"),
+        url("fonts/JetBrainsMono-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src:
+        url("fonts/JetBrainsMono-ExtraBoldItalic.woff2") format("woff2"),
+        url("fonts/JetBrainsMono-ExtraBoldItalic.ttf") format("truetype");
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src:
+        url("fonts/JetBrainsMono-ExtraLight.woff2") format("woff2"),
+        url("fonts/JetBrainsMono-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src:
+        url("fonts/JetBrainsMono-ExtraLightItalic.woff2") format("woff2"),
+        url("fonts/JetBrainsMono-ExtraLightItalic.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src:
+        url("fonts/JetBrainsMono-Light.woff2") format("woff2"),
+        url("fonts/JetBrainsMono-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src:
+        url("fonts/JetBrainsMono-LightItalic.woff2") format("woff2"),
+        url("fonts/JetBrainsMono-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src:
+        url("fonts/JetBrainsMono-Medium.woff2") format("woff2"),
+        url("fonts/JetBrainsMono-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src:
+        url("fonts/JetBrainsMono-MediumItalic.woff2") format("woff2"),
+        url("fonts/JetBrainsMono-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src:
+        url("fonts/JetBrainsMono-SemiBold.woff2") format("woff2"),
+        url("fonts/JetBrainsMono-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src:
+        url("fonts/JetBrainsMono-SemiBoldItalic.woff2") format("woff2"),
+        url("fonts/JetBrainsMono-SemiBoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src:
+        url("fonts/JetBrainsMono-Thin.woff2") format("woff2"),
+        url("fonts/JetBrainsMono-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src:
+        url("fonts/JetBrainsMono-ThinItalic.woff2") format("woff2"),
+        url("fonts/JetBrainsMono-ThinItalic.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Amiri Quran";
+    src: url("fonts/AmiriQuran-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --vp-font-family-base: "JetBrains Mono", monospace;
+    --vp-font-family-mono: "JetBrains Mono", monospace;
+    --hero-icon-light: brightness(0) saturate(100%) invert(28%) sepia(15%)
+        saturate(380%) hue-rotate(191deg) brightness(94%) contrast(92%);
+    --hero-icon-dark: brightness(0) saturate(100%) invert(88%) sepia(10%)
+        saturate(343%) hue-rotate(185deg) brightness(101%) contrast(93%);
+}
+
+.VPHero.has-image img {
+    filter: var(--hero-icon-light);
+}
+
+.dark .VPHero.has-image img {
+    filter: var(--hero-icon-dark);
+}
+
+html {
+    font-family: var(--vp-font-family-base);
+}
+
+/* Customize Nav Bar Menu */
+.VPNavBarMenu .VPNavBarMenuLink {
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.VPNavBarMenu .VPNavBarMenuGroup .text {
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.custom-content p {
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.VPFooter.has-sidebar {
+    display: block !important;
+}
+
+.VPButton {
+    font-size: 1rem !important;
+}
+
+.VPSidebarItem .text {
+    //font-size: 1rem !important;
+}
+
+.title {
+    font-size: 1.25rem !important;
+}
+
+.outline-title {
+    font-weight: 800 !important;
+}
+
+.title .VPImage {
+    height: 35px !important;
+    width: 35px !important;
+    border-radius: 15% !important;
+}
+
+.VPSocialLink {
+    position: relative;
+}
+
+.VPSocialLink::after {
+    content: attr(aria-label);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5em;
+    background: var(--vp-c-bg-soft);
+    color: var(--vp-c-text-1);
+    border-radius: 0.2em;
+    font-size: 0.9em;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.2s,
+        visibility 0.2s;
+}
+
+.VPSocialLink:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
