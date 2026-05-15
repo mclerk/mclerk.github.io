@@ -15,6 +15,7 @@ header {
 
 header h1 {
     font-size: 1.5rem;
+    color: #00ff00;
 }
 
 header .logo {
@@ -33,7 +34,7 @@ header a {
 body {
     font-family: "JetBrains Mono", monospace;
     background: #000000;
-    color: #00ff00;
+    color: #bebebe;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -72,7 +73,8 @@ main {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 3.25em;
+    color: #00ff00;
 }
 
 /*h3 {
@@ -80,7 +82,7 @@ h1 {
 }*/
 
 a {
-    color: #00ff00;
+    color: #bebebe;
     font-weight: 800;
     text-decoration: none;
     font-style: italic;
